@@ -31,7 +31,10 @@
     function updateMessage() {
       const title = info.querySelector('h2');
       if (!title) return;
-      const product = title.textContent.trim();
+      const selected = document.body.classList.contains('lang-ml')
+        ? title.querySelector('.ml')
+        : title.querySelector('.en');
+      const product = (selected ? selected.textContent : title.textContent).trim();
       if (!product) return;
       const message = 'Hello AL AMEEN SURGICALS, I am interested in the ' + product + '. Please provide more details.';
       wa.href = 'https://wa.me/' + NUMBER + '?text=' + encodeURIComponent(message);
@@ -39,6 +42,7 @@
 
     updateMessage();
     new MutationObserver(updateMessage).observe(info, {subtree:true, childList:true, characterData:true});
+    new MutationObserver(updateMessage).observe(document.body, {attributes:true, attributeFilter:['class']});
   }
 
   if (document.readyState === 'loading') {
