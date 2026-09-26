@@ -3,8 +3,6 @@ name: Add WhatsApp enquiry button
 on:
   workflow_dispatch:
   push:
-    paths-ignore:
-      - 'whatsapp-enquiry.js'
 
 permissions:
   contents: write
