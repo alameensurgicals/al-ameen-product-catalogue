@@ -1,0 +1,800 @@
+[
+  {
+    "name": "Wheelchair",
+    "category": "Mobility & Rehabilitation",
+    "image": "products/p1_1.jpg",
+    "english_description": "Wheelchair",
+    "malayalam_description": "Wheelchair"
+  },
+  {
+    "name": "Commode Wheelchair",
+    "category": "Mobility & Rehabilitation",
+    "image": "products/p1_2.jpg",
+    "english_description": "Commode Wheelchair",
+    "malayalam_description": "Commode Wheelchair"
+  },
+  {
+    "name": "Reclyning Wheelchair",
+    "category": "Mobility & Rehabilitation",
+    "image": "products/p1_3.jpg",
+    "english_description": "Reclyning Wheelchair",
+    "malayalam_description": "Reclyning Wheelchair"
+  },
+  {
+    "name": "Transit Wheelchair",
+    "category": "Mobility & Rehabilitation",
+    "image": "products/p1_4.jpg",
+    "english_description": "Transit Wheelchair",
+    "malayalam_description": "Transit Wheelchair"
+  },
+  {
+    "name": "Power Wheelchair",
+    "category": "Mobility & Rehabilitation",
+    "image": "products/p1_5.jpg",
+    "english_description": "Power Wheelchair",
+    "malayalam_description": "Power Wheelchair"
+  },
+  {
+    "name": "CP Wheelchair",
+    "category": "Mobility & Rehabilitation",
+    "image": "products/p1_6.jpg",
+    "english_description": "CP Wheelchair",
+    "malayalam_description": "CP Wheelchair"
+  },
+  {
+    "name": "Patient Shifter",
+    "category": "Mobility & Rehabilitation",
+    "image": "products/p1_7.jpg",
+    "english_description": "Patient Shifter",
+    "malayalam_description": "Patient Shifter"
+  },
+  {
+    "name": "Commode Chair PVC",
+    "category": "Mobility & Rehabilitation",
+    "image": "products/p1_8.jpg",
+    "english_description": "Commode Chair PVC",
+    "malayalam_description": "Commode Chair PVC"
+  },
+  {
+    "name": "Commode Chair",
+    "category": "Mobility & Rehabilitation",
+    "image": "products/p1_9.jpg",
+    "english_description": "Commode Chair",
+    "malayalam_description": "Commode Chair"
+  },
+  {
+    "name": "Commode Chair Wheel",
+    "category": "Mobility & Rehabilitation",
+    "image": "products/p2_1.jpg",
+    "english_description": "Commode Chair Wheel",
+    "malayalam_description": "Commode Chair Wheel"
+  },
+  {
+    "name": "Commode Wheelchair",
+    "category": "Mobility & Rehabilitation",
+    "image": "products/p2_2.jpg",
+    "english_description": "Commode Wheelchair",
+    "malayalam_description": "Commode Wheelchair"
+  },
+  {
+    "name": "Fixed Walker",
+    "category": "Mobility & Rehabilitation",
+    "image": "products/p2_3.jpg",
+    "english_description": "Fixed Walker",
+    "malayalam_description": "Fixed Walker"
+  },
+  {
+    "name": "Folding Walker",
+    "category": "Mobility & Rehabilitation",
+    "image": "products/p2_4.jpg",
+    "english_description": "Folding Walker",
+    "malayalam_description": "Folding Walker"
+  },
+  {
+    "name": "Walking Stick",
+    "category": "Mobility & Rehabilitation",
+    "image": "products/p2_5.jpg",
+    "english_description": "Walking Stick",
+    "malayalam_description": "Walking Stick"
+  },
+  {
+    "name": "Tripod Walking Stick",
+    "category": "Mobility & Rehabilitation",
+    "image": "products/p2_6.jpg",
+    "english_description": "Tripod Walking Stick",
+    "malayalam_description": "Tripod Walking Stick"
+  },
+  {
+    "name": "Quadripod",
+    "category": "Mobility & Rehabilitation",
+    "image": "products/p2_7.jpg",
+    "english_description": "Quadripod",
+    "malayalam_description": "Quadripod"
+  },
+  {
+    "name": "Elbow Crutches",
+    "category": "Mobility & Rehabilitation",
+    "image": "products/p2_8.jpg",
+    "english_description": "Elbow Crutches",
+    "malayalam_description": "Elbow Crutches"
+  },
+  {
+    "name": "Auxillary Crutches",
+    "category": "Mobility & Rehabilitation",
+    "image": "products/p2_9.jpg",
+    "english_description": "Auxillary Crutches",
+    "malayalam_description": "Auxillary Crutches"
+  },
+  {
+    "name": "Commode Elevator",
+    "category": "Mobility & Rehabilitation",
+    "image": "products/p3_1.jpg",
+    "english_description": "Commode Elevator",
+    "malayalam_description": "Commode Elevator"
+  },
+  {
+    "name": "Shower Chair",
+    "category": "Mobility & Rehabilitation",
+    "image": "products/p3_2.jpg",
+    "english_description": "Shower Chair",
+    "malayalam_description": "Shower Chair"
+  },
+  {
+    "name": "Portable Toilet",
+    "category": "Mobility & Rehabilitation",
+    "image": "products/p3_3.jpg",
+    "english_description": "Portable Toilet",
+    "malayalam_description": "Portable Toilet"
+  },
+  {
+    "name": "Grab Bars",
+    "category": "Mobility & Rehabilitation",
+    "image": "products/p3_4.jpg",
+    "english_description": "Grab Bars",
+    "malayalam_description": "Grab Bars"
+  },
+  {
+    "name": "Patient Lifting Hoist",
+    "category": "Mobility & Rehabilitation",
+    "image": "products/p3_5.jpg",
+    "english_description": "Patient Lifting Hoist",
+    "malayalam_description": "Patient Lifting Hoist"
+  },
+  {
+    "name": "Blind Sick",
+    "category": "Mobility & Rehabilitation",
+    "image": "products/p3_6.jpg",
+    "english_description": "Blind Sick",
+    "malayalam_description": "Blind Sick"
+  },
+  {
+    "name": "Semi Fowler Cot",
+    "category": "Patient Care & Hospital Furniture",
+    "image": "products/p4_1.jpg",
+    "english_description": "Semi Fowler Cot",
+    "malayalam_description": "Semi Fowler Cot"
+  },
+  {
+    "name": "Semi Fowler Cot ABS",
+    "category": "Patient Care & Hospital Furniture",
+    "image": "products/p4_2.jpg",
+    "english_description": "Semi Fowler Cot ABS",
+    "malayalam_description": "Semi Fowler Cot ABS"
+  },
+  {
+    "name": "Semi Fowler ABS With Wheel",
+    "category": "Patient Care & Hospital Furniture",
+    "image": "products/p4_3.jpg",
+    "english_description": "Semi Fowler ABS With Wheel",
+    "malayalam_description": "Semi Fowler ABS With Wheel"
+  },
+  {
+    "name": "Fowler Cot ABS",
+    "category": "Patient Care & Hospital Furniture",
+    "image": "products/p4_4.jpg",
+    "english_description": "Fowler Cot ABS",
+    "malayalam_description": "Fowler Cot ABS"
+  },
+  {
+    "name": "Fowler Cot ABS With Wheel",
+    "category": "Patient Care & Hospital Furniture",
+    "image": "products/p4_5.jpg",
+    "english_description": "Fowler Cot ABS With Wheel",
+    "malayalam_description": "Fowler Cot ABS With Wheel"
+  },
+  {
+    "name": "Examination Table",
+    "category": "Patient Care & Hospital Furniture",
+    "image": "products/p4_6.jpg",
+    "english_description": "Examination Table",
+    "malayalam_description": "Examination Table"
+  },
+  {
+    "name": "Overbed Table",
+    "category": "Patient Care & Hospital Furniture",
+    "image": "products/p4_7.jpg",
+    "english_description": "Overbed Table",
+    "malayalam_description": "Overbed Table"
+  },
+  {
+    "name": "IV Stand SS",
+    "category": "Patient Care & Hospital Furniture",
+    "image": "products/p4_8.jpg",
+    "english_description": "IV Stand SS",
+    "malayalam_description": "IV Stand SS"
+  },
+  {
+    "name": "Three Fold Screen",
+    "category": "Patient Care & Hospital Furniture",
+    "image": "products/p4_9.jpg",
+    "english_description": "Three Fold Screen",
+    "malayalam_description": "Three Fold Screen"
+  },
+  {
+    "name": "Air Bed",
+    "category": "Air & Water Care Products",
+    "image": "products/p5_1.jpg",
+    "english_description": "Air Bed",
+    "malayalam_description": "Air Bed"
+  },
+  {
+    "name": "Water Bed",
+    "category": "Air & Water Care Products",
+    "image": "products/p5_2.jpg",
+    "english_description": "Water Bed",
+    "malayalam_description": "Water Bed"
+  },
+  {
+    "name": "Air Cushion",
+    "category": "Air & Water Care Products",
+    "image": "products/p5_3.jpg",
+    "english_description": "Air Cushion",
+    "malayalam_description": "Air Cushion"
+  },
+  {
+    "name": "Water Cushion",
+    "category": "Air & Water Care Products",
+    "image": "products/p5_4.jpg",
+    "english_description": "Water Cushion",
+    "malayalam_description": "Water Cushion"
+  },
+  {
+    "name": "Air Pillow",
+    "category": "Air & Water Care Products",
+    "image": "products/p5_5.jpg",
+    "english_description": "Air Pillow",
+    "malayalam_description": "Air Pillow"
+  },
+  {
+    "name": "Nebulizer",
+    "category": "Respiratory Care",
+    "image": "products/p5_6.jpg",
+    "english_description": "Nebulizer",
+    "malayalam_description": "Nebulizer"
+  },
+  {
+    "name": "Vapourizer",
+    "category": "Respiratory Care",
+    "image": "products/p5_7.jpg",
+    "english_description": "Vapourizer",
+    "malayalam_description": "Vapourizer"
+  },
+  {
+    "name": "Portable Suction",
+    "category": "Respiratory Care",
+    "image": "products/p5_8.jpg",
+    "english_description": "Portable Suction",
+    "malayalam_description": "Portable Suction"
+  },
+  {
+    "name": "Mesh Nebulizer",
+    "category": "Respiratory Care",
+    "image": "products/p6_1.jpg",
+    "english_description": "Mesh Nebulizer",
+    "malayalam_description": "Mesh Nebulizer"
+  },
+  {
+    "name": "Respiromter",
+    "category": "Respiratory Care",
+    "image": "products/p6_2.jpg",
+    "english_description": "Respiromter",
+    "malayalam_description": "Respiromter"
+  },
+  {
+    "name": "Fixed Walker",
+    "category": "Respiratory Care",
+    "image": "products/p6_3.jpg",
+    "english_description": "Fixed Walker",
+    "malayalam_description": "Fixed Walker"
+  },
+  {
+    "name": "CPAP BIPAP Machines",
+    "category": "Respiratory Care",
+    "image": "products/p6_4.jpg",
+    "english_description": "CPAP BIPAP Machines",
+    "malayalam_description": "CPAP BIPAP Machines"
+  },
+  {
+    "name": "Oxygen Concentrator",
+    "category": "Respiratory Care",
+    "image": "products/p6_5.jpg",
+    "english_description": "Oxygen Concentrator",
+    "malayalam_description": "Oxygen Concentrator"
+  },
+  {
+    "name": "Manual BP",
+    "category": "Diagnostic & Monitoring Devices",
+    "image": "products/p7_1.jpg",
+    "english_description": "Manual BP",
+    "malayalam_description": "Manual BP"
+  },
+  {
+    "name": "Digital BP",
+    "category": "Diagnostic & Monitoring Devices",
+    "image": "products/p7_2.jpg",
+    "english_description": "Digital BP",
+    "malayalam_description": "Digital BP"
+  },
+  {
+    "name": "Digital Thermometer",
+    "category": "Diagnostic & Monitoring Devices",
+    "image": "products/p7_3.jpg",
+    "english_description": "Digital Thermometer",
+    "malayalam_description": "Digital Thermometer"
+  },
+  {
+    "name": "Infrared Thermometer",
+    "category": "Diagnostic & Monitoring Devices",
+    "image": "products/p7_4.jpg",
+    "english_description": "Infrared Thermometer",
+    "malayalam_description": "Infrared Thermometer"
+  },
+  {
+    "name": "Thermometer",
+    "category": "Diagnostic & Monitoring Devices",
+    "image": "products/p7_5.jpg",
+    "english_description": "Thermometer",
+    "malayalam_description": "Thermometer"
+  },
+  {
+    "name": "Glucometer",
+    "category": "Diagnostic & Monitoring Devices",
+    "image": "products/p7_6.jpg",
+    "english_description": "Glucometer",
+    "malayalam_description": "Glucometer"
+  },
+  {
+    "name": "Cramp Reliever",
+    "category": "Diagnostic & Monitoring Devices",
+    "image": "products/p7_7.jpg",
+    "english_description": "Cramp Reliever",
+    "malayalam_description": "Cramp Reliever"
+  },
+  {
+    "name": "Head Massager",
+    "category": "Diagnostic & Monitoring Devices",
+    "image": "products/p7_8.jpg",
+    "english_description": "Head Massager",
+    "malayalam_description": "Head Massager"
+  },
+  {
+    "name": "Full Body Massager",
+    "category": "Diagnostic & Monitoring Devices",
+    "image": "products/p7_9.jpg",
+    "english_description": "Full Body Massager",
+    "malayalam_description": "Full Body Massager"
+  },
+  {
+    "name": "EMS Foot Massager",
+    "category": "Diagnostic & Monitoring Devices",
+    "image": "products/p8_1.jpg",
+    "english_description": "EMS Foot Massager",
+    "malayalam_description": "EMS Foot Massager"
+  },
+  {
+    "name": "TENS Machine",
+    "category": "Diagnostic & Monitoring Devices",
+    "image": "products/p8_2.jpg",
+    "english_description": "TENS Machine",
+    "malayalam_description": "TENS Machine"
+  },
+  {
+    "name": "Breast Pump Manual",
+    "category": "Diagnostic & Monitoring Devices",
+    "image": "products/p8_3.jpg",
+    "english_description": "Breast Pump Manual",
+    "malayalam_description": "Breast Pump Manual"
+  },
+  {
+    "name": "Breast Pump Electric",
+    "category": "Diagnostic & Monitoring Devices",
+    "image": "products/p8_4.jpg",
+    "english_description": "Breast Pump Electric",
+    "malayalam_description": "Breast Pump Electric"
+  },
+  {
+    "name": "Wearable Breast Pump",
+    "category": "Diagnostic & Monitoring Devices",
+    "image": "products/p8_5.jpg",
+    "english_description": "Wearable Breast Pump",
+    "malayalam_description": "Wearable Breast Pump"
+  },
+  {
+    "name": "Infrared Lamp",
+    "category": "Diagnostic & Monitoring Devices",
+    "image": "products/p8_6.jpg",
+    "english_description": "Infrared Lamp",
+    "malayalam_description": "Infrared Lamp"
+  },
+  {
+    "name": "Foot Massager",
+    "category": "Diagnostic & Monitoring Devices",
+    "image": "products/p8_7.jpg",
+    "english_description": "Foot Massager",
+    "malayalam_description": "Foot Massager"
+  },
+  {
+    "name": "Seat Massager",
+    "category": "Diagnostic & Monitoring Devices",
+    "image": "products/p8_8.jpg",
+    "english_description": "Seat Massager",
+    "malayalam_description": "Seat Massager"
+  },
+  {
+    "name": "Heating Pad Electric",
+    "category": "Diagnostic & Monitoring Devices",
+    "image": "products/p8_9.jpg",
+    "english_description": "Heating Pad Electric",
+    "malayalam_description": "Heating Pad Electric"
+  },
+  {
+    "name": "Neck & Shoulder Massager",
+    "category": "Diagnostic & Monitoring Devices",
+    "image": "products/neck_shoulder_massager.png",
+    "english_description": "Neck & Shoulder Massager",
+    "malayalam_description": "Neck & Shoulder Massager"
+  },
+  {
+    "name": "Pedal Cycle",
+    "category": "Diabetic Care",
+    "image": "products/p9_1.jpg",
+    "english_description": "Pedal Cycle",
+    "malayalam_description": "Pedal Cycle"
+  },
+  {
+    "name": "Hand Exerciser",
+    "category": "Diabetic Care",
+    "image": "products/p9_2.jpg",
+    "english_description": "Hand Exerciser",
+    "malayalam_description": "Hand Exerciser"
+  },
+  {
+    "name": "Baby Weighing Scale",
+    "category": "Diabetic Care",
+    "image": "products/p9_3.jpg",
+    "english_description": "Baby Weighing Scale",
+    "malayalam_description": "Baby Weighing Scale"
+  },
+  {
+    "name": "Accupressure Mats",
+    "category": "Diabetic Care",
+    "image": "products/p9_4.jpg",
+    "english_description": "Accupressure Mats",
+    "malayalam_description": "Accupressure Mats"
+  },
+  {
+    "name": "Weighing Scale",
+    "category": "Diabetic Care",
+    "image": "products/p9_5.jpg",
+    "english_description": "Weighing Scale",
+    "malayalam_description": "Weighing Scale"
+  },
+  {
+    "name": "MCR / MCP Footwear",
+    "category": "Diabetic Care",
+    "image": "products/p9_6.jpg",
+    "english_description": "MCR / MCP Footwear",
+    "malayalam_description": "MCR / MCP Footwear"
+  },
+  {
+    "name": "Diabetic Socks",
+    "category": "Diabetic Care",
+    "image": "products/p9_7.jpg",
+    "english_description": "Diabetic Socks",
+    "malayalam_description": "Diabetic Socks"
+  },
+  {
+    "name": "Insulin Pouches",
+    "category": "Diabetic Care",
+    "image": "products/p9_8.jpg",
+    "english_description": "Insulin Pouches",
+    "malayalam_description": "Insulin Pouches"
+  },
+  {
+    "name": "Adult Diapers",
+    "category": "Personal Care & Hygiene",
+    "image": "products/p10_1.jpg",
+    "english_description": "Adult Diapers",
+    "malayalam_description": "Adult Diapers"
+  },
+  {
+    "name": "Diaper Pullup",
+    "category": "Personal Care & Hygiene",
+    "image": "products/p10_2.jpg",
+    "english_description": "Diaper Pullup",
+    "malayalam_description": "Diaper Pullup"
+  },
+  {
+    "name": "Underpads",
+    "category": "Personal Care & Hygiene",
+    "image": "products/p10_3.jpg",
+    "english_description": "Underpads",
+    "malayalam_description": "Underpads"
+  },
+  {
+    "name": "Rubber Sheets",
+    "category": "Personal Care & Hygiene",
+    "image": "products/p10_4.jpg",
+    "english_description": "Rubber Sheets",
+    "malayalam_description": "Rubber Sheets"
+  },
+  {
+    "name": "Hand Sanitizers",
+    "category": "Personal Care & Hygiene",
+    "image": "products/p10_5.jpg",
+    "english_description": "Hand Sanitizers",
+    "malayalam_description": "Hand Sanitizers"
+  },
+  {
+    "name": "Hand Wash",
+    "category": "Personal Care & Hygiene",
+    "image": "products/p10_6.jpg",
+    "english_description": "Hand Wash",
+    "malayalam_description": "Hand Wash"
+  },
+  {
+    "name": "Examination Gloves",
+    "category": "Personal Care & Hygiene",
+    "image": "products/p10_7.jpg",
+    "english_description": "Examination Gloves",
+    "malayalam_description": "Examination Gloves"
+  },
+  {
+    "name": "House Hold Gloves",
+    "category": "Personal Care & Hygiene",
+    "image": "products/p10_8.jpg",
+    "english_description": "House Hold Gloves",
+    "malayalam_description": "House Hold Gloves"
+  },
+  {
+    "name": "Cotton Gloves",
+    "category": "Personal Care & Hygiene",
+    "image": "products/p10_9.jpg",
+    "english_description": "Cotton Gloves",
+    "malayalam_description": "Cotton Gloves"
+  },
+  {
+    "name": "Panty Liners",
+    "category": "Personal Care & Hygiene — Women",
+    "image": "products/p11_1.jpg",
+    "english_description": "Panty Liners",
+    "malayalam_description": "Panty Liners"
+  },
+  {
+    "name": "Maternity Pads",
+    "category": "Personal Care & Hygiene — Women",
+    "image": "products/p11_2.jpg",
+    "english_description": "Maternity Pads",
+    "malayalam_description": "Maternity Pads"
+  },
+  {
+    "name": "Menstrual Cups",
+    "category": "Personal Care & Hygiene — Women",
+    "image": "products/p11_3.jpg",
+    "english_description": "Menstrual Cups",
+    "malayalam_description": "Menstrual Cups"
+  },
+  {
+    "name": "Sanitary Pads",
+    "category": "Personal Care & Hygiene — Women",
+    "image": "products/p11_4.jpg",
+    "english_description": "Sanitary Pads",
+    "malayalam_description": "Sanitary Pads"
+  },
+  {
+    "name": "Breast Pads",
+    "category": "Personal Care & Hygiene — Women",
+    "image": "products/p11_5.jpg",
+    "english_description": "Breast Pads",
+    "malayalam_description": "Breast Pads"
+  },
+  {
+    "name": "Hygiene Wash",
+    "category": "Personal Care & Hygiene — Women",
+    "image": "products/p11_6.jpg",
+    "english_description": "Hygiene Wash",
+    "malayalam_description": "Hygiene Wash"
+  },
+  {
+    "name": "Stand & Pee",
+    "category": "Personal Care & Hygiene — Women",
+    "image": "products/p11_7.jpg",
+    "english_description": "Stand & Pee",
+    "malayalam_description": "Stand & Pee"
+  },
+  {
+    "name": "Period Panties",
+    "category": "Personal Care & Hygiene — Women",
+    "image": "products/p11_8.jpg",
+    "english_description": "Period Panties",
+    "malayalam_description": "Period Panties"
+  },
+  {
+    "name": "Baby Diapers",
+    "category": "Kids & Baby Care",
+    "image": "products/p12_1.jpg",
+    "english_description": "Baby Diapers",
+    "malayalam_description": "Baby Diapers"
+  },
+  {
+    "name": "Baby Wipes",
+    "category": "Kids & Baby Care",
+    "image": "products/p12_2.jpg",
+    "english_description": "Baby Wipes",
+    "malayalam_description": "Baby Wipes"
+  },
+  {
+    "name": "Baby Rubber Mats",
+    "category": "Kids & Baby Care",
+    "image": "products/p12_3.jpg",
+    "english_description": "Baby Rubber Mats",
+    "malayalam_description": "Baby Rubber Mats"
+  },
+  {
+    "name": "Baby Shampoo",
+    "category": "Kids & Baby Care",
+    "image": "products/p12_4.jpg",
+    "english_description": "Baby Shampoo",
+    "malayalam_description": "Baby Shampoo"
+  },
+  {
+    "name": "Baby Soap",
+    "category": "Kids & Baby Care",
+    "image": "products/p12_5.jpg",
+    "english_description": "Baby Soap",
+    "malayalam_description": "Baby Soap"
+  },
+  {
+    "name": "Baby Lotion",
+    "category": "Kids & Baby Care",
+    "image": "products/p12_6.jpg",
+    "english_description": "Baby Lotion",
+    "malayalam_description": "Baby Lotion"
+  },
+  {
+    "name": "Nail Clippers",
+    "category": "Kids & Baby Care",
+    "image": "products/p12_7.jpg",
+    "english_description": "Nail Clippers",
+    "malayalam_description": "Nail Clippers"
+  },
+  {
+    "name": "Feeding Bottles",
+    "category": "Kids & Baby Care",
+    "image": "products/p12_8.jpg",
+    "english_description": "Feeding Bottles",
+    "malayalam_description": "Feeding Bottles"
+  },
+  {
+    "name": "Baby Tooth Brushes",
+    "category": "Kids & Baby Care",
+    "image": "products/p12_9.jpg",
+    "english_description": "Baby Tooth Brushes",
+    "malayalam_description": "Baby Tooth Brushes"
+  },
+  {
+    "name": "Finger Brushes",
+    "category": "Kids & Baby Care",
+    "image": "products/p13_1.jpg",
+    "english_description": "Finger Brushes",
+    "malayalam_description": "Finger Brushes"
+  },
+  {
+    "name": "Kids Toothpaste",
+    "category": "Kids & Baby Care",
+    "image": "products/p13_2.jpg",
+    "english_description": "Kids Toothpaste",
+    "malayalam_description": "Kids Toothpaste"
+  },
+  {
+    "name": "Baby Teether",
+    "category": "Kids & Baby Care",
+    "image": "products/p13_3.jpg",
+    "english_description": "Baby Teether",
+    "malayalam_description": "Baby Teether"
+  },
+  {
+    "name": "Baby Pacifier",
+    "category": "Kids & Baby Care",
+    "image": "products/p13_4.jpg",
+    "english_description": "Baby Pacifier",
+    "malayalam_description": "Baby Pacifier"
+  },
+  {
+    "name": "Cotton Buds",
+    "category": "Kids & Baby Care",
+    "image": "products/p13_5.jpg",
+    "english_description": "Cotton Buds",
+    "malayalam_description": "Cotton Buds"
+  },
+  {
+    "name": "Nasal Aspirator",
+    "category": "Kids & Baby Care",
+    "image": "products/p13_6.jpg",
+    "english_description": "Nasal Aspirator",
+    "malayalam_description": "Nasal Aspirator"
+  },
+  {
+    "name": "Pulse Oximeter",
+    "category": "Kids & Baby Care",
+    "image": "products/p13_7.jpg",
+    "english_description": "Pulse Oximeter",
+    "malayalam_description": "Pulse Oximeter"
+  },
+  {
+    "name": "Baby Comb",
+    "category": "Kids & Baby Care",
+    "image": "products/p13_8.jpg",
+    "english_description": "Baby Comb",
+    "malayalam_description": "Baby Comb"
+  },
+  {
+    "name": "Baby Cap Set",
+    "category": "Kids & Baby Care",
+    "image": "products/p13_9.jpg",
+    "english_description": "Baby Cap Set",
+    "malayalam_description": "Baby Cap Set"
+  },
+  {
+    "name": "Dry Sheet",
+    "category": "Kids & Baby Care",
+    "image": "products/p14_1.jpg",
+    "english_description": "Dry Sheet",
+    "malayalam_description": "Dry Sheet"
+  },
+  {
+    "name": "Cloth Diapers",
+    "category": "Kids & Baby Care",
+    "image": "products/p14_2.jpg",
+    "english_description": "Cloth Diapers",
+    "malayalam_description": "Cloth Diapers"
+  },
+  {
+    "name": "Neck Pillow",
+    "category": "Kids & Baby Care",
+    "image": "products/p14_3.jpg",
+    "english_description": "Neck Pillow",
+    "malayalam_description": "Neck Pillow"
+  },
+  {
+    "name": "Baby Blankets",
+    "category": "Kids & Baby Care",
+    "image": "products/p14_4.jpg",
+    "english_description": "Baby Blankets",
+    "malayalam_description": "Baby Blankets"
+  },
+  {
+    "name": "Net Bed",
+    "category": "Kids & Baby Care",
+    "image": "products/p14_5.jpg",
+    "english_description": "Net Bed",
+    "malayalam_description": "Net Bed"
+  },
+  {
+    "name": "Baby Basket",
+    "category": "Kids & Baby Care",
+    "image": "products/p14_6.jpg",
+    "english_description": "Baby Basket",
+    "malayalam_description": "Baby Basket"
+  }
+]
