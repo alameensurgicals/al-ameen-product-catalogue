@@ -1,0 +1,134 @@
+name: Add product detail modal
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/add-product-modal.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  enhance:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Add click-to-enlarge product details
+        run: |
+          python3 <<'PY'
+          from pathlib import Path
+
+          path = Path('index.html')
+          html = path.read_text(encoding='utf-8')
+          marker = 'ALAMEEN_PRODUCT_MODAL_V1'
+
+          if marker in html:
+              print('Product modal is already installed.')
+              raise SystemExit(0)
+
+          css = '''
+          /* ALAMEEN_PRODUCT_MODAL_V1 */
+          .product-modal{position:fixed;inset:0;z-index:9999;display:none;align-items:center;justify-content:center;padding:22px;background:rgba(3,32,38,.78);backdrop-filter:blur(4px)}
+          .product-modal.open{display:flex}
+          .product-modal-panel{position:relative;width:min(100%,980px);max-height:92vh;overflow:auto;background:#fff;border-radius:22px;box-shadow:0 18px 60px rgba(0,0,0,.3);display:grid;grid-template-columns:minmax(0,1.05fr) minmax(280px,.95fr)}
+          .product-modal-image{min-height:520px;background:#fff;display:flex;align-items:center;justify-content:center;padding:28px;border-radius:22px 0 0 22px}
+          .product-modal-image img{width:100%;height:100%;max-height:650px;object-fit:contain;display:block}
+          .product-modal-info{padding:34px 32px;display:flex;flex-direction:column;justify-content:center}
+          .product-modal-info h2{margin:0 0 14px;color:var(--dark);font-size:28px;line-height:1.2}
+          .product-modal-info p{margin:0 0 18px;color:var(--muted);font-size:15px;line-height:1.65}
+          .product-modal-info small{color:#8aa0a5;font-size:11px}
+          .product-modal-close{position:absolute;right:14px;top:12px;width:42px;height:42px;border:0;border-radius:50%;background:rgba(255,255,255,.94);color:var(--dark);font-size:28px;line-height:1;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,.12);z-index:2}
+          .card{cursor:pointer}
+          .card:focus{outline:3px solid rgba(11,157,177,.35);outline-offset:2px}
+          @media(max-width:700px){.product-modal{padding:10px}.product-modal-panel{grid-template-columns:1fr;max-height:94vh;border-radius:18px}.product-modal-image{min-height:280px;height:42vh;padding:18px;border-radius:18px 18px 0 0}.product-modal-image img{max-height:42vh}.product-modal-info{padding:22px 20px 26px}.product-modal-info h2{font-size:22px}.product-modal-info p{font-size:14px}.product-modal-close{right:9px;top:9px}}
+          '''
+
+          modal = '''
+          <div class="product-modal" id="productModal" aria-hidden="true">
+            <div class="product-modal-panel" role="dialog" aria-modal="true" aria-labelledby="productModalTitle">
+              <button class="product-modal-close" id="productModalClose" type="button" aria-label="Close">&times;</button>
+              <div class="product-modal-image"><img id="productModalImage" alt=""/></div>
+              <div class="product-modal-info">
+                <h2 id="productModalTitle"></h2>
+                <p id="productModalDescription"></p>
+                <small id="productModalMeta"></small>
+              </div>
+            </div>
+          </div>
+          <script>
+          (function(){
+            const modal=document.getElementById('productModal');
+            const closeBtn=document.getElementById('productModalClose');
+            const modalImage=document.getElementById('productModalImage');
+            const modalTitle=document.getElementById('productModalTitle');
+            const modalDescription=document.getElementById('productModalDescription');
+            const modalMeta=document.getElementById('productModalMeta');
+            let lastCard=null;
+
+            function openProduct(card){
+              const img=card.querySelector('.photo img');
+              const title=card.querySelector('h3');
+              const description=card.querySelector('.body p');
+              const meta=card.querySelector('.body small');
+              if(!img||!title||!description) return;
+              lastCard=card;
+              modalImage.src=img.currentSrc||img.src;
+              modalImage.alt=img.alt||'';
+              modalTitle.innerHTML=title.innerHTML;
+              modalDescription.innerHTML=description.innerHTML;
+              modalMeta.textContent=meta?meta.textContent:'';
+              modal.classList.add('open');
+              modal.setAttribute('aria-hidden','false');
+              document.body.style.overflow='hidden';
+              closeBtn.focus();
+            }
+
+            function closeProduct(){
+              modal.classList.remove('open');
+              modal.setAttribute('aria-hidden','true');
+              document.body.style.overflow='';
+              if(lastCard) lastCard.focus();
+            }
+
+            document.querySelectorAll('.card').forEach(card=>{
+              card.setAttribute('tabindex','0');
+              card.setAttribute('role','button');
+              card.addEventListener('click',()=>openProduct(card));
+              card.addEventListener('keydown',e=>{
+                if(e.key==='Enter'||e.key===' '){e.preventDefault();openProduct(card)}
+              });
+            });
+
+            closeBtn.addEventListener('click',closeProduct);
+            modal.addEventListener('click',e=>{if(e.target===modal) closeProduct()});
+            document.addEventListener('keydown',e=>{if(e.key==='Escape'&&modal.classList.contains('open')) closeProduct()});
+          })();
+          </script>
+          '''
+
+          style_pos = html.rfind('</style>')
+          body_pos = html.rfind('</body>')
+          if style_pos < 0 or body_pos < 0:
+              raise SystemExit('Could not find </style> or </body> in index.html')
+
+          html = html[:style_pos] + css + html[style_pos:]
+          body_pos = html.rfind('</body>')
+          html = html[:body_pos] + modal + html[body_pos:]
+          path.write_text(html, encoding='utf-8')
+          print('Product detail modal installed.')
+          PY
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Enable click-to-enlarge product details"
+            git push
+          fi
