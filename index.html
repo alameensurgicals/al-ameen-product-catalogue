@@ -228,6 +228,7 @@ body.lang-ml .bp-brand-card .en{display:none!important}
   const modalTitle=document.getElementById('productModalTitle');
   const modalDescription=document.getElementById('productModalDescription');
   const modalMeta=document.getElementById('productModalMeta');
+  const modalPanel=modal.querySelector('.product-modal-panel');
   const modelsModal=document.getElementById('wheelchairModelsModal');
   const modelsClose=document.getElementById('wheelchairModelsClose');
   const modelsGrid=document.getElementById('wheelchairModelsGrid');
@@ -266,8 +267,9 @@ body.lang-ml .bp-brand-card .en{display:none!important}
         brandsModal.setAttribute('aria-hidden','true');
         openProduct(digitalBpCard);
         modalTitle.innerHTML='<span class="en">Digital BP – '+brand+'</span><span class="ml">Digital BP – '+brand+'</span>';
-        modalImage.alt='Digital BP – '+brand;
+        modalImage.alt=brand==='OMRON'?'OMRON Digital BP monitor':'Digital BP monitor';
         modalMeta.textContent='Brand: '+brand;
+        if(brand!=='OMRON'){modalImage.parentElement.style.display='none';modalPanel.style.gridTemplateColumns='1fr'}
       });
       brandsGrid.appendChild(option);
     });
@@ -306,6 +308,8 @@ body.lang-ml .bp-brand-card .en{display:none!important}
     lastCard=card;
     modalImage.src=img.currentSrc||img.src;
     modalImage.alt=img.alt||'';
+    modalImage.parentElement.style.display='';
+    modalPanel.style.gridTemplateColumns='';
     modalTitle.innerHTML=title.innerHTML;
     modalDescription.innerHTML=description.innerHTML;
     modalMeta.textContent=meta?meta.textContent:'';
