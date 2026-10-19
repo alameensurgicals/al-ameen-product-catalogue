@@ -364,7 +364,9 @@ body.lang-ml .bp-brand-card .en{display:none!important}
     if(guide){
       const useMalayalam=document.body.classList.contains('lang-ml');
       usageGuideTitle.textContent=useMalayalam?'ഉപയോഗിക്കുന്ന വിധം':'How to Use';
-      guide.steps.forEach(step=>{const li=document.createElement('li');li.textContent=step[useMalayalam?1:0];usageGuideSteps.appendChild(li)});
+      const preparation=useMalayalam?'ഉപയോഗം തുടങ്ങുന്നതിന് മുമ്പ് ഈ മോഡലിന്റെ മാനുവൽ വായിക്കുക. ഉപകരണത്തിനും ആക്സസറികൾക്കും കേടില്ലെന്ന് പരിശോധിച്ച് മാനുവലിൽ കാണിച്ചപോലെ സജ്ജമാക്കുക. സംശയമുണ്ടെങ്കിൽ വിതരണക്കാരനോടോ പരിശീലനം ലഭിച്ച പരിചാരകനോടോ ചോദിക്കുക.':'Before starting, read this model’s manual, check the product and accessories for damage, and set it up as shown. Ask the supplier or a trained caregiver if anything is unclear.';
+      const aftercare=useMalayalam?'ഉപയോഗശേഷം അല്ലെങ്കിൽ പതിവ് പരിചരണസമയത്ത് ഭാഗങ്ങൾ മാനുവൽ നിർദേശിക്കുന്നപോലെ വൃത്തിയാക്കി സൂക്ഷിക്കുക. തുടർച്ചയായി പ്രവർത്തിക്കേണ്ട ഉപകരണങ്ങൾ പരിചരണപദ്ധതി പ്രകാരം മാത്രം ഓഫ് ചെയ്യുകയോ വിച്ഛേദിക്കുകയോ ചെയ്യുക.':'After use or routine care, clean and store parts as the manual directs. Switch off or disconnect equipment intended for continuous use only if the care plan or manual instructs you to.';
+      [preparation,...guide.steps.map(step=>step[useMalayalam?1:0]),aftercare].forEach(text=>{const li=document.createElement('li');li.textContent=text;usageGuideSteps.appendChild(li)});
       usageGuideNote.textContent=guide.note[useMalayalam?1:0];
       usageGuideToggle.onclick=()=>{const isOpen=!usageGuide.hidden;usageGuide.hidden=isOpen;usageGuideToggle.setAttribute('aria-expanded',String(!isOpen))};
     }
